@@ -1,0 +1,280 @@
+inherited KeepingAdd_F: TKeepingAdd_F
+  Left = 318
+  Top = 312
+  Caption = 'KeepingAdd_F'
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited CaptionLabel: TLabel
+    Width = 137
+    Caption = #53429#54609#46321#47197
+    ExplicitWidth = 137
+  end
+  object obtn_save: TOXSpeedButton [1]
+    Left = 690
+    Top = 243
+    Width = 95
+    Height = 47
+    Hint = 'GIF'
+    Flat = True
+    Title.Font.Charset = DEFAULT_CHARSET
+    Title.Font.Color = clBlack
+    Title.Font.Height = -11
+    Title.Font.Name = #44404#47548#52404
+    Title.Font.Style = []
+    Number = 0
+    Bottom.Top = 20
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWindowText
+    Bottom.Font.Height = -11
+    Bottom.Font.Name = #44404#47548#52404
+    Bottom.Font.Style = []
+    Lapse = 0
+    IsWork = False
+    OnClick = obtn_saveClick
+    DrawFrame = False
+  end
+  object obtn_close: TOXSpeedButton [2]
+    Left = 735
+    Top = 6
+    Width = 58
+    Height = 47
+    Cursor = crHandPoint
+    Hint = 'JPG'
+    Flat = True
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Title.Font.Charset = DEFAULT_CHARSET
+    Title.Font.Color = clBlack
+    Title.Font.Height = -11
+    Title.Font.Name = #44404#47548#52404
+    Title.Font.Style = []
+    Number = 0
+    Bottom.Top = 20
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWindowText
+    Bottom.Font.Height = -11
+    Bottom.Font.Name = #44404#47548#52404
+    Bottom.Font.Style = []
+    Lapse = 0
+    IsWork = False
+    OnClick = obtn_closeClick
+    DrawFrame = False
+  end
+  inherited CloseButton: TcxButton
+    Top = 5
+    TabOrder = 12
+    ExplicitTop = 5
+  end
+  object edtMenuName: TcxTextEdit
+    Left = 88
+    Top = 262
+    AutoSize = False
+    ParentFont = False
+    Properties.ReadOnly = True
+    Style.Font.Charset = HANGEUL_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -20
+    Style.Font.Name = #44404#47548#52404
+    Style.Font.Style = []
+    Style.IsFontAssigned = True
+    StyleFocused.Color = clYellow
+    TabOrder = 10
+    Height = 28
+    Width = 273
+  end
+  object edtCustName: TcxTextEdit
+    Left = 88
+    Top = 84
+    AutoSize = False
+    ImeMode = imSHanguel
+    ParentFont = False
+    Properties.ImeMode = imSHanguel
+    Properties.MaxLength = 30
+    Style.Font.Charset = HANGEUL_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -20
+    Style.Font.Name = #44404#47548#52404
+    Style.Font.Style = []
+    Style.IsFontAssigned = True
+    StyleFocused.Color = clYellow
+    TabOrder = 0
+    Height = 28
+    Width = 193
+  end
+  object edtTelNo: TcxTextEdit
+    Left = 88
+    Top = 129
+    AutoSize = False
+    ImeMode = imDisable
+    ParentFont = False
+    Properties.ImeMode = imDisable
+    Properties.MaxLength = 15
+    Style.Font.Charset = HANGEUL_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -20
+    Style.Font.Name = #44404#47548#52404
+    Style.Font.Style = []
+    Style.IsFontAssigned = True
+    StyleFocused.Color = clYellow
+    TabOrder = 1
+    OnExit = edtTelNoExit
+    Height = 28
+    Width = 148
+  end
+  object edtDamdang: TcxTextEdit
+    Left = 88
+    Top = 177
+    AutoSize = False
+    ImeMode = imDisable
+    ParentFont = False
+    Properties.ImeMode = imDisable
+    Properties.ReadOnly = True
+    Style.Color = 15132390
+    Style.Font.Charset = HANGEUL_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -20
+    Style.Font.Name = #44404#47548#52404
+    Style.Font.Style = []
+    Style.IsFontAssigned = True
+    StyleFocused.Color = clYellow
+    TabOrder = 2
+    Height = 28
+    Width = 193
+  end
+  object cxButton1: TcxButton
+    Left = 287
+    Top = 176
+    Width = 75
+    Height = 31
+    Caption = #51312#54924
+    TabOrder = 3
+    OnClick = cxButton1Click
+  end
+  object cxButton2: TcxButton
+    Left = 287
+    Top = 82
+    Width = 75
+    Height = 31
+    Caption = #54924#50896#51312#54924
+    TabOrder = 4
+    OnClick = cxButton2Click
+  end
+  object edtMenu: TcxTextEdit
+    Left = 88
+    Top = 222
+    AutoSize = False
+    ParentFont = False
+    Style.Font.Charset = HANGEUL_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -20
+    Style.Font.Name = #44404#47548#52404
+    Style.Font.Style = []
+    Style.IsFontAssigned = True
+    StyleFocused.Color = clYellow
+    TabOrder = 5
+    Height = 28
+    Width = 193
+  end
+  object meoRemark: TcxMemo
+    Left = 450
+    Top = 84
+    ImeMode = imSHanguel
+    Properties.ImeMode = imSHanguel
+    Properties.MaxLength = 300
+    TabOrder = 6
+    Height = 133
+    Width = 335
+  end
+  object panMenu: TPanel
+    Left = 88
+    Top = 262
+    Width = 425
+    Height = 323
+    Caption = 'panMenu'
+    TabOrder = 7
+    Visible = False
+    object Grid: TcxGrid
+      Left = 1
+      Top = 1
+      Width = 423
+      Height = 321
+      Align = alClient
+      Font.Charset = HANGEUL_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = #47569#51008' '#44256#46357
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      LookAndFeel.NativeStyle = False
+      object gvGridView: TcxGridTableView
+        Navigator.Buttons.CustomButtons = <>
+        OnCellDblClick = gvGridViewCellDblClick
+        DataController.Summary.DefaultGroupSummaryItems = <>
+        DataController.Summary.FooterSummaryItems = <>
+        DataController.Summary.SummaryGroups = <>
+        OptionsSelection.CellSelect = False
+        OptionsView.DataRowHeight = 30
+        OptionsView.GroupByBox = False
+        OptionsView.HeaderHeight = 30
+        OptionsView.Indicator = True
+        object gvGridViewColumn1: TcxGridColumn
+          Caption = #47700#45684#53076#46300
+          PropertiesClassName = 'TcxLabelProperties'
+          Properties.Alignment.Horz = taCenter
+          Properties.Alignment.Vert = taVCenter
+          HeaderAlignmentHorz = taCenter
+          Width = 130
+        end
+        object gvGridViewColumn2: TcxGridColumn
+          Caption = #47700#45684#47749
+          PropertiesClassName = 'TcxLabelProperties'
+          Properties.Alignment.Vert = taVCenter
+          HeaderAlignmentHorz = taCenter
+          Width = 249
+        end
+      end
+      object GridLevel: TcxGridLevel
+        GridView = gvGridView
+      end
+    end
+  end
+  object cxButton3: TcxButton
+    Left = 287
+    Top = 221
+    Width = 75
+    Height = 31
+    Caption = #51312#54924
+    TabOrder = 8
+    OnClick = cxButton3Click
+  end
+  object cxButton4: TcxButton
+    Left = 439
+    Top = 221
+    Width = 75
+    Height = 31
+    Caption = #45803#44592
+    TabOrder = 9
+    Visible = False
+    OnClick = cxButton4Click
+  end
+  object cxButton5: TcxButton
+    Left = 363
+    Top = 221
+    Width = 75
+    Height = 31
+    Caption = #49440#53469
+    TabOrder = 11
+    Visible = False
+    OnClick = cxButton5Click
+  end
+  object cxLookAndFeelController1: TcxLookAndFeelController
+    Kind = lfOffice11
+    Left = 576
+    Top = 304
+  end
+end

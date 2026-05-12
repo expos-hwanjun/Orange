@@ -1,0 +1,1535 @@
+object KitchenMemo_F: TKitchenMemo_F
+  Left = 431
+  Top = 250
+  Hint = 'Logo'
+  BorderStyle = bsNone
+  Caption = 'KitchenMemo_F'
+  ClientHeight = 660
+  ClientWidth = 759
+  Color = clBtnFace
+  DefaultMonitor = dmMainForm
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  Scaled = False
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 20
+  object TitleLabel: TLabel
+    Left = 125
+    Top = 4
+    Width = 177
+    Height = 42
+    AutoSize = False
+    Caption = #51452#48169#47700#47784
+    Font.Charset = HANGEUL_CHARSET
+    Font.Color = clWhite
+    Font.Height = -31
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+  end
+  object MessageLabel: TLabel
+    Left = 51
+    Top = 618
+    Width = 691
+    Height = 31
+    AutoSize = False
+    Font.Charset = HANGEUL_CHARSET
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Image3: TImage
+    Left = 8
+    Top = 617
+    Width = 37
+    Height = 32
+    Picture.Data = {
+      0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000032
+      0000003208060000001E3F88B10000000467414D410000B18F0BFC6105000004
+      2D494441546843ED9AEB8B56451CC7B75CAFAB794342A1C4CCBB68A018484620
+      F407A46865E62B4113B150CC1B45BE132942B1572146C41A49A914E22D8A4A12
+      C2BCE52D2F287841C537997921A7CFD7F39D7D7CDAE7D975F7B9CD8BFDC007F6
+      FC66CECCCFDD3373E6CC58D741071D548710C2D33813D7E2377808CFE075AB9F
+      0FE2D7A83A33F029DF5E5B48E4595C8D47B1187FD9621CC60F70A89BAD1E743A
+      0577E0BF18D16F7B1DCEC289D8CFD59B50CC656FE07AD45F2DA2B6BEC3C9AE5E
+      39E864A83B8B9CC5E538C455DA0CF73E832BF01C46B663BBDB2C0A8D3E866FE3
+      DF284EA2C6C3E3AE52326A0B5FC353286EE24217970E8DF5C4AFD432FC83FA0B
+      D4BBB8ECD076675C89B7516CC60617B70F1AD033FDAB5A03FDA6C6BAA8E2D0D7
+      38FC531DC33EECE3A2B6C18DBDF0805A811FB0B78BAA067DF6C11F9500FC863D
+      5DF468704327D4AC2476617717551DFAEE817B95087C8B9D5CD43A545EF5E0B6
+      6C7A7CC2E19A410EBDF1881282650EB70C15C7E35DD44B6C98C335875C46A066
+      CD3BD8FA58A5D21E146F39940CE4B4284B2DEC74A830547829AB17FEC08A4DB1
+      ED859C34351F5782F0A2C3CDA1500B3A31CBA1E420B737B314C3970EE54381A6
+      3A8D8DABD8C5E1E420B7AEA8D5B4C64AF38988A096D562A343C9428E9BB254C3
+      74877210FC382B0BAF3A942CE4F87A966AF8C8A11C04E34B679443C9428E63B2
+      54C36E877210D48A56243B3E22E4D82D4B359C702807C12B78CB97C943AE5A89
+      5FF6650E05F1B62F9347B9E2255FE620A897A0E8E150B290638B8F561CEC231C
+      4A16726C71B0AFC9CAC26C8792851CB5C1210A4EBFAF6465E1538792851C3FCB
+      520DD31CCA41B001F5C17F03BB3A9C1CE4A6F1A1258A067B2F87F3A1E00B1429
+      2F1AE764298646879A43E104BC8F7A39A6BA8C3F81E205870B4385AD59BDB0C8
+      A16420A777B2D4C20E878A4325EDFC69ACDCC2910ED71C7219E59C3436C638DC
+      32545C80429BD37D1DAE19E4A06FA5F8C25EEA70EB50595BA4718AD39E56CDDE
+      F6F4ADD95439886DD8B66D5A6EE882F16DAF9DBEFE2EAA1AF4A9BFC44F4A00F6
+      63FBB64EB9B13B6A534C68CB74A28B2A0E7D3D87A7D531FC8CA5ED74D280A6BC
+      0D6A0DF44DFFAE8B2A02EDEB49780FE326B6DE6DA56D623F0C8D69CB5F5C75A8
+      ACD06E3DCE461DD1096D10CE7371F9A0511DF288FD0E9505DAD3F19DB6682FA8
+      71D00B596790835DA5BCD0705C717EE2501EC475EAA4E3B4B938099FC4BC351B
+      D7035CA6BD293DAE714A153A7AD349D5F3AE5E19E8201EB9BDECD003B8D62311
+      77600AA14F52BD608BF13BBE8FE53F6AFB3F743210EFE1796CDAD6E7E7E1F83D
+      0A7DF3EB386E297E8EBFE031D427F435D4B3AFF3962DA86F9F6938C84D55073A
+      8CBFF1F9BED623F2216AB74F683F3699E54C414870342A613D1E8B518BCAF80F
+      108D58F8BB2015485027577A1915424762535D356D4854E711FA62BC88FA1F0A
+      5AEB2CC1E477233BA82D7575FF01B264F9F053E860DD0000000049454E44AE42
+      6082}
+    Stretch = True
+  end
+  object Image1: TImage
+    Left = 26
+    Top = 65
+    Width = 29
+    Height = 35
+    Picture.Data = {
+      0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000020
+      000000200806000000737A7AF40000000467414D410000B18F0BFC6105000000
+      20744558745469746C6500456469743B426172733B526962626F6E3B5374616E
+      646172643B3013C3DB000008C54944415458479597095454D719C71FD1980435
+      2E04536342CCE2128C9E634F624F9BD363638E4D8D69534DA259A42A55B3082A
+      0A456589082A8BE0BE46C005DC415191E08202A2B84449154146108661166605
+      86996100FFFDBE3B3338A0A1ED3BE7E71B6679BFFF77EFF7EEBB4A00A4FFE1F0
+      209E227A38E9F9049EEE06FE9C7F2F0E76BA782C4052CA55695DCA35714E24E8
+      60798FF81D85515BD36F62CB7E22FD6707690E36EF7BC4A6BDD7051B983DCC35
+      24A5165FA06B7008BE56F701E2775E96EE94AB0825FF29E4319B2EAC2CB82647
+      E1B52ADCAD50A35A618046DB0863830516AB1D0F1F02EDF44F27DA1FB12EB598
+      25CF106214BA0D10BDB940FAE56E1DBF6479CFC8A4B32B7F2AA81492841FF371
+      BB428507B50628B54DD0999A6132DBD0442198460B616E4183D94EB4D06776D8
+      5BDB91947C8525CF12FF3D4044621E9FF88B3D97AEC98ECEBE284393A5550488
+      D9720EA5F7D550A84DD01A49DE64734889060B89191180E50E5AECED14BC8825
+      CF39AFDB6D0057B33DBD38FA44F4C973E5426E6969170122D69E46A94C0395D6
+      4C72AB5BC52EECF43E899D181B6D2240DC8E4B2CF124B881BB0D20E40B2233A2
+      8F9F2923791BAC24B7B73E140182571DC7DDCA7AD41B9AA95AC730BB576C64A9
+      C046720ED0021B0588DD5EC092DE44B701C49C7FB7EC6074666E2989DB606F7B
+      88B67608391F81914750E60AC055B2D855AD0BAA5AEF065F67CDD68B2CE94388
+      009D8E2E017AADDB5D8C03593FE39F4BF6116998134C84A4615E683AC2134EA2
+      921A5067B0BA095BA0A7B39ECF0D36E8BAC0016236E5B1A42FD1A32A789EE48E
+      7B001EFE671353AEE0DCA57BC825F22EDFC7A5EB5528BE55839252252AAAF5D4
+      FD665199A1814288617654FA486A85D6E4A09E5E37DBDA907AE4064BFA11BC28
+      B1C7A32C7096541630F3B100CFADDD7519E5956ADC91A9217BA0A37BDE885A75
+      03D424D6E82D4220A46E55325A172EB9D181C5D68AF34515B8F0F594D89BB3A7
+      E3EAAC6951E471AD8C1E5D0378C6EFBC04A5A60172A54974BB96E69BA50C57CA
+      1777C8F93DC7DFF55DA48C86D08985AA05E71336A2624510DAD4F75116320F67
+      A77E144D2EC768B805E006E91DB7BD107AA3450C753D9D5DCDE45EB1A3521B89
+      09163AE51A3AB358ADA3D07436D042753E3D0B7796CE479B4A06C3EE04345D3C
+      8AC2E97F43C607E363C8D7B36B803EDCB18DCD36BA100DF713E6B69E5E0B31CB
+      5CD077797A347A921BE8771CDC6846727A0162B79D838ADED3A726A026C41FAA
+      BDDB51B22A0C5B7D47B0F899AE01FAAEDA92072BCD1BCB1DF34A6297DC29EE18
+      6616924C4001543A0A4153A635342227F31022D765436EB2E374F103146DDB89
+      DA0D6B7078CC28EC1A360C2B860C89235FAFC702446F3C8F165ABF5DC3EC9AE3
+      8E8A592C842427A98B3A6DB3906BF40D28CDDD84EA53B3D0625521AB5086D493
+      B7F053910C0993BFC096A1AF2168A05702B97861EA3405DC99CFAF587F9656AF
+      36372155C5F32AC42EA9154A01F50AA120B94ADF44778A09B77336A0EAB81F1E
+      DAAA60BDBB1C45B9EB7132BF1C5FCEDF81F7A744E18FBF199D481E5E94B8093B
+      DD051CA05F6462AE08E0A8D429ED103B84029D996079130D3DA131A0E4D43ADC
+      CFF80AED96FBB0DC0A86E9E2C73094AC4058E852FCE1A365F0F299B49E1D442F
+      E2A96F7AD1E3A14B80FE61F13962F5E22AC51C7792D2503B5110724D23DD2D84
+      468F9B5989A838380DEDE67BB094C6C178F643E8AE87213FC217394123F1A731
+      BE3BE8FA2F10625F30AEFF7069EE13020C581E9F4D4DE808C042A59E2B75E010
+      9BA96AB3902BEA1BA0506971233301E5FBA6A2ADF12E4C45DF437B6202749743
+      713174384ECD1F8694F0F92C194E88E598F0F0F49E28FDB6EF9B8F051818BAFA
+      A4583E859C101593906171875C2C561A5C3D1C8BB2D44FD066BA0D63DE1C688F
+      BC87FA82C53817F4068ECD7B1D391B97E1C031B11F7895109B92994B764B9EDE
+      1F48EFFB8EEA14809BC22B24260BCDD65612B38CE79831A396C5F54DA85137D2
+      D26CA4255A8D2B0756E3CECE8FD16AB8057DEE2C68D2C7419DB700B9F3872263
+      F6509C581B02799D1AB19B7358F212C1C3EFB13A72A5347EE45B52D2789A912E
+      015E58127D1C66DA5E896AEB49EC84AB16729591B6644A14A545E3DF5BFE02BB
+      F63AB4A7BE8222792C5467BEC1E9B93E38E4F70A32E3964056AD409DC6289EAA
+      746D0EC0CDE7911FFCA694F0DE4029FEF7033A02F0A398037807ADC8A48D88FD
+      91D85975B5AA81E42654D6D4217F4F144AD64F844D7D05AACC69A8D9F63694D9
+      FE38E13F04FBA70FC1D15541A8A852A04AA1A3221AE1BF786FA711C85BF09AB4
+      7A5C7F69D53BFD1F0B302830E2282DC576211668CCA85637A15AC995AB70E6C7
+      0414ACFF0EB6BA02280FFC1DD51B46A02ECB0FC7FC5E42DAA7837170E54294CB
+      E4B46FD0E29EDC284672D6A23D2C1942880037427CA4E8B1FDA428C23D000FCF
+      A0EFC30E8B2D965C439513D5547D559D090F145A14E7E5E248C064FA0950B7EF
+      AF7810F7066A33A6E1E81783B0FB931791FE4320CA2A6A9C7203648A06B142FE
+      63614AA700F7225E967E18D3578A1C4D37459711F0FE76D9C18E1D2DEF78F849
+      A8D23542AE50223B291C57E8A1A2B97713B298A1901F9A82C353BD9132D91BE9
+      9101A8A8AC815CA5879C7B857B889B97A67146A008309810014A43074B11A3FA
+      48E1847B00B112FA07A5E6CFA5EDD7BC7FEDA7AD58BA68A0F0D84C6C4D3E85E5
+      3367C0582B83BC602F0AB62EC5DEC04FB179CA58C4FA7F895D69B9884A3C8619
+      01C9F05B902CA45F0738F87CCEA642BAB697D3E1511A34480AF3ED237005E083
+      37249C9097CA17094ECCC3C6F7EFA8B7DF9D9418B0682594D7327061633076F8
+      4D40FC8763307BF4E074FA7C1C3182184AF810AFB89DB9F90612620DF825D04B
+      6296BFD55BE01E80478143704AEE070EC33FE2D5CBE7771366942F0CDF8D497F
+      FE0C9346FB5A17BDF36AF6A4D7BD66F067040BF8E9C6DFEF0A5F87A7576CC14A
+      BE1D20314F0AE03A38880BFE9168CEE16326C26BB06FC5F3037D627BF6F27C97
+      DE7B99A01B59FC8F87430BC1AFB16C646FE9498800BF86F3C762AB460C227838
+      F981C2A3C2957588978EF094FE7F3CA5FF006A9224AF8AF0D402000000004945
+      4E44AE426082}
+  end
+  object Memo1Button: TPosButton
+    Left = 16
+    Top = 117
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo2Button: TPosButton
+    Tag = 1
+    Left = 199
+    Top = 117
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo3Button: TPosButton
+    Tag = 2
+    Left = 382
+    Top = 117
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo4Button: TPosButton
+    Tag = 3
+    Left = 565
+    Top = 117
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo5Button: TPosButton
+    Tag = 4
+    Left = 16
+    Top = 197
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo6Button: TPosButton
+    Tag = 5
+    Left = 199
+    Top = 197
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo7Button: TPosButton
+    Tag = 6
+    Left = 382
+    Top = 197
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo8Button: TPosButton
+    Tag = 7
+    Left = 565
+    Top = 197
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo9Button: TPosButton
+    Tag = 8
+    Left = 16
+    Top = 277
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo10Button: TPosButton
+    Tag = 9
+    Left = 199
+    Top = 277
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo11Button: TPosButton
+    Tag = 10
+    Left = 382
+    Top = 277
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo12Button: TPosButton
+    Tag = 11
+    Left = 565
+    Top = 277
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo13Button: TPosButton
+    Tag = 12
+    Left = 16
+    Top = 358
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo14Button: TPosButton
+    Tag = 13
+    Left = 199
+    Top = 358
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo15Button: TPosButton
+    Tag = 14
+    Left = 382
+    Top = 358
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo16Button: TPosButton
+    Tag = 15
+    Left = 565
+    Top = 358
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo17Button: TPosButton
+    Tag = 16
+    Left = 16
+    Top = 439
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo18Button: TPosButton
+    Tag = 17
+    Left = 199
+    Top = 439
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo19Button: TPosButton
+    Tag = 18
+    Left = 382
+    Top = 439
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object Memo20Button: TPosButton
+    Tag = 19
+    Left = 565
+    Top = 439
+    Width = 177
+    Height = 75
+    Style = bsRound
+    BorderStyle = pbsSingle
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = ''
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = Memo1ButtonClick
+  end
+  object PriorButton: TPosButton
+    Left = 565
+    Top = 520
+    Width = 87
+    Height = 72
+    Style = bsRound
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = #51060#51204
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = PriorButtonClick
+  end
+  object NextButton: TPosButton
+    Left = 655
+    Top = 520
+    Width = 87
+    Height = 72
+    Style = bsRound
+    BorderColor = clWhite
+    BorderInnerColor = 13995776
+    Number.Font.Charset = DEFAULT_CHARSET
+    Number.Font.Color = clWindowText
+    Number.Font.Height = -11
+    Number.Font.Name = #47569#51008' '#44256#46357
+    Number.Font.Style = []
+    Number.Color = clGreen
+    Bottom.Height = 23
+    Bottom.Font.Charset = DEFAULT_CHARSET
+    Bottom.Font.Color = clWhite
+    Bottom.Font.Height = -16
+    Bottom.Font.Name = #47569#51008' '#44256#46357
+    Bottom.Font.Style = []
+    Bottom.Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = []
+    Caption = #45796#51020
+    Menu.Font.Charset = DEFAULT_CHARSET
+    Menu.Font.Color = clWindowText
+    Menu.Font.Height = -12
+    Menu.Font.Name = #44404#47548#52404
+    Menu.Font.Style = []
+    Amount.Font.Charset = DEFAULT_CHARSET
+    Amount.Font.Color = clWindowText
+    Amount.Font.Height = -12
+    Amount.Font.Name = #44404#47548#52404
+    Amount.Font.Style = []
+    Down = False
+    Color = 13995776
+    LayoutTop = True
+    IsWork = False
+    IsUse = False
+    OnClick = PriorButtonClick
+  end
+  object CloseButton: TcxButton
+    AlignWithMargins = True
+    Left = 696
+    Top = 2
+    Width = 59
+    Height = 48
+    Cursor = crHandPoint
+    Cancel = True
+    Colors.Default = clWhite
+    Colors.DefaultText = clWhite
+    Colors.Normal = clWhite
+    Colors.NormalText = clWhite
+    Colors.Disabled = clWhite
+    Colors.DisabledText = clWhite
+    LookAndFeel.Kind = lfOffice11
+    LookAndFeel.NativeStyle = True
+    OptionsImage.Glyph.SourceDPI = 96
+    OptionsImage.Glyph.Data = {
+      424D761400000000000036000000280000002400000024000000010020000000
+      000000000000C40E0000C40E0000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000909090952525252A7A7
+      A7A7EAEAEAEAE5E5E5E588888888060606060000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000090909095252
+      5252A7A7A7A7F3F3F3F3FFFFFFFFE9E9E9E99E9E9E9EA6A6A6A6FFFFFFFF8787
+      8787000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000909
+      090952525252A7A7A7A7F3F3F3F3FFFFFFFFE9E9E9E997979797424242420303
+      03030000000000000000A7A7A7A7E5E5E5E50000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000040404048A8A8A8AF3F3F3F3FFFFFFFFE9E9E9E9979797974242
+      424203030303000000000000000000000000000000000000000080808080FFFF
+      FFFF000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000008B8B8B8BFFFFFFFFA6A6
+      A6A6424242420303030300000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF8888888888888888888888888888
+      8888888888887979797940404040000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000EBEBEBEBABABABAB000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA9A9
+      A9A9050505050000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000FFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF0000000000000000000000000000
+      0000000000000E0E0E0E72727272FEFEFEFE7E7E7E7E00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000FFFFFFFF80808080000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFF00000000000000000000000000000000000000000000000000000000AFAF
+      AFAFE5E5E5E50000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000FFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF0000000000000000000000000000
+      000000000000000000000000000081818181FEFEFEFE00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000FFFFFFFF80808080000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFF000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000FFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF0000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000FFFFFFFF80808080000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFF000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000FFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF0000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000FFFFFFFF80808080000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFF000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF000000000000000000000000000000001C1C1C1C5B5B5B5B0101
+      01010000000000000000000000000000000000000000FFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF0000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      0000000000005C5C5C5CFFFFFFFF909090900101010100000000000000000000
+      000000000000FFFFFFFF80808080000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFF000000000000000000000000000000000000000000000000000000007C7C
+      7C7CFCFCFCFC00000000000000000000000000000000000000008F8F8F8FFFFF
+      FFFF9090909001010101000000000000000000000000FFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF0000000000000000000000000000
+      00000000000000000000000000001C1C1C1C5555555500000000000000000000
+      00000000000000000000000000008F8F8F8FFFFFFFFF90909090010101010000
+      000000000000FFFFFFFF80808080000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFF000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000087878787FFFFFFFF8F8F8F8F0101010100000000FFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000087878787FFFFFFFF8F8F
+      8F8F01010101FFFFFFFF80808080000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFF000000000000000000000000000000001C1C1C1C82828282888888888888
+      8888888888888888888888888888888888888888888888888888888888888888
+      88888888888888888888EAEAEAEAFFFFFFFF8D8D8D8DFFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF0000000000000000000000000000
+      000056565656FCFCFCFCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFE0E0E0E0FFFFFFFF80808080000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFF000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000026262626E5E5E5E5E8E8E8E82A2A2A2AFFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000026262626E5E5E5E5E8E8E8E82A2A
+      2A2A00000000FFFFFFFF80808080000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFF000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000002727
+      2727E5E5E5E5E8E8E8E82A2A2A2A0000000000000000FFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF0000000000000000000000000000
+      000000000000000000000000000059595959D1D1D1D100000000000000000000
+      0000000000000000000029292929E7E7E7E7E6E6E6E628282828000000000000
+      000000000000FFFFFFFF80808080000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFF000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000023232323E7E7E7E7E6E6
+      E6E62828282800000000000000000000000000000000FFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF0000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      00000000000056565656DADADADA282828280000000000000000000000000000
+      000000000000FFFFFFFF80808080000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFF000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000FFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000080808080FFFFFFFF0000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000FFFFFFFF80808080000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000080808080FFFF
+      FFFF000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000FFFFFFFF808080800000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000A2A2A2A2EAEAEAEA0000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000FFFFFFFF80808080000000000000000000000000000000000000
+      00000000000000000000000000000303030342424242A5A5A5A5FFFFFFFF8B8B
+      8B8B000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000FFFFFFFF808080800000
+      000000000000000000000000000000000000030303034242424297979797E9E9
+      E9E9FFFFFFFFF3F3F3F38A8A8A8A040404040000000000000000000000000000
+      00000000000000000000000000008E8E8E8EF8F8F8F800000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000E5E5E5E5A3A3A3A3000000000000000003030303424242429797
+      9797E9E9E9E9FFFFFFFFF3F3F3F3A7A7A7A75252525209090909000000000000
+      000000000000000000000000000000000000000000000000000010101010E0E0
+      E0E0C0C0C0C00000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000088888888FDFDFDFDA3A3
+      A3A39C9C9C9CE9E9E9E9FFFFFFFFFFFFFFFFFFFFFFFFDADADADA919191918888
+      8888888888888888888888888888888888888888888888888888888888888888
+      88888888888891919191E0E0E0E0F9F9F9F93131313100000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000606060689898989E6E6E6E6FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8F8F8F8C2C2C2C23131
+      3131000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000}
+    SpeedButtonOptions.CanBeFocused = False
+    SpeedButtonOptions.Flat = True
+    SpeedButtonOptions.Transparent = True
+    TabOrder = 0
+    TabStop = False
+    Font.Charset = HANGEUL_CHARSET
+    Font.Color = clWhite
+    Font.Height = -23
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = CloseButtonClick
+  end
+  object MemoEdit: TcxTextEdit
+    Left = 64
+    Top = 62
+    Margins.Left = 10
+    Margins.Right = 10
+    AutoSize = False
+    ParentFont = False
+    Properties.Alignment.Horz = taLeftJustify
+    Properties.MaxLength = 0
+    Style.BorderColor = clBlack
+    Style.BorderStyle = ebsSingle
+    Style.Font.Charset = HANGEUL_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -20
+    Style.Font.Name = #47569#51008' '#44256#46357
+    Style.Font.Style = []
+    Style.LookAndFeel.Kind = lfFlat
+    Style.LookAndFeel.NativeStyle = False
+    Style.IsFontAssigned = True
+    StyleDisabled.BorderColor = clBlack
+    StyleDisabled.Color = clWhite
+    StyleDisabled.LookAndFeel.Kind = lfFlat
+    StyleDisabled.LookAndFeel.NativeStyle = False
+    StyleDisabled.TextColor = clBlack
+    StyleFocused.Color = 8454143
+    StyleFocused.LookAndFeel.Kind = lfFlat
+    StyleFocused.LookAndFeel.NativeStyle = False
+    StyleHot.LookAndFeel.Kind = lfFlat
+    StyleHot.LookAndFeel.NativeStyle = False
+    TabOrder = 1
+    Height = 40
+    Width = 665
+  end
+  object ConfirmButton: TAdvSmoothButton
+    Left = 299
+    Top = 527
+    Width = 182
+    Height = 66
+    Cursor = crHandPoint
+    Appearance.PictureAlignment = taCenter
+    Appearance.PictureStretchMode = pmStretch
+    Appearance.Font.Charset = HANGEUL_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -21
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = [fsBold]
+    Appearance.ShiftDown = 0
+    Appearance.FocusColor = clWhite
+    Appearance.SimpleLayout = True
+    Appearance.Rounding = 5
+    Status.Caption = '0'
+    Status.Appearance.Fill.Color = clWhite
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 11
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clBlack
+    Status.Appearance.Font.Height = -13
+    Status.Appearance.Font.Name = #47569#51008' '#44256#46357
+    Status.Appearance.Font.Style = []
+    Caption = #54869#51064
+    Color = 8404992
+    ParentFont = False
+    Picture.Data = {
+      89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+      F4000000097048597300000B1300000B1301009A9C180000021649444154789C
+      ED974D4B5B411486A3C582D48F62215A772EAA71D36A1B14A1FF40B0FA3B74E1
+      A2ADBAD47E2CDC0A8A44EBDABFA0A92DF62F48A3B8D1D2A50AB68D14177964E0
+      8D0EF99899DC1854F0C0707367CEFB9E9973CE9C7B128BDDCB5D12A0179806D2
+      C02EF04F635773EF81442D0C0F005B84CB26F0EA3A0C3F0496819C888F801430
+      02F4008F34CCEF5160153891AEC1CC030FA21A7F026C8B2C0BCC02CD01B8C7C0
+      67E0BFB0EB514FBE2D8243A02F02C710B00FBCD67B07301E0A5EB68C3FADF804
+      573CF596F18C38277CA041C52F1BE5E425F86CE3E6D9E1037C97F2EC4D18EFB5
+      B2BDB916C6813A176846805495C6DB811D719922D5A9F96160D2054C0B345283
+      933F07CE4D917281F704EC2EB33EEE8AA32BE64097E67FB936F0474A45F137D7
+      C7954CBE84031AF3452D64034D25D6E2565CF7F27175C5BC00DFA2F5D390103C
+      2BB35EB48910E3C226F2DE0949C2370E9D425707DD73604C7A1BAE0D4C4969A5
+      AC52B1279C27B7306BD27DEB524A5885A8C543683CF153C359E18056E0D875C3
+      2E05F826C5B99847E4897880DE4771A643BB9F9C3E46FD5E809FEF257026CEB0
+      2E0958CA170D5F6C3D3C9DE230B25009B0C1EA017F03C908C65F0007E2F8619A
+      9C4A09DAAC4FB309C7075F625A05E793DC8E72AAADD203D89E58B49AD263359E
+      A3BA314D1A09CD7D29684A170C47AC5A0192C057C2257D2D6D79A1A8FD367F3E
+      3654F9FE6A6434F7CE7BCFEFE5B6C905DFF24BE6057984AF0000000049454E44
+      AE426082}
+    Shadow = True
+    DisabledColor = clWhite
+    TabOrder = 2
+    TabStop = False
+    ShowFocus = False
+    HorizontalSpacing = 0
+    VerticalSpacing = 0
+    Version = '2.2.2.0'
+    OnClick = ConfirmButtonClick
+    TMSStyle = 8
+  end
+  object KeyBoardButton: TAdvSmoothButton
+    Left = 16
+    Top = 527
+    Width = 153
+    Height = 66
+    Cursor = crHandPoint
+    Appearance.PictureAlignment = taCenter
+    Appearance.PictureStretchMode = pmStretch
+    Appearance.Font.Charset = HANGEUL_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -21
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = [fsBold]
+    Appearance.ShiftDown = 0
+    Appearance.FocusColor = clWhite
+    Appearance.SimpleLayout = True
+    Appearance.Rounding = 5
+    Status.Caption = '0'
+    Status.Appearance.Fill.Color = clWhite
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 11
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clBlack
+    Status.Appearance.Font.Height = -13
+    Status.Appearance.Font.Name = #47569#51008' '#44256#46357
+    Status.Appearance.Font.Style = []
+    Caption = #53412#48372#46300
+    Color = 8404992
+    ParentFont = False
+    Picture.Data = {
+      89504E470D0A1A0A0000000D494844520000001A0000001A0806000000A94A4C
+      CE00000006624B474400FF00FF00FFA0BDA79300000082494441544889EDD541
+      0A80201085E1674477A813DB393A9BD12DFE161549212D7224C26F35E0E2E90C
+      385255150774C008CCE417000F74DA0B6BDE01B3A4DEB8718BE2D8A89DD9EA43
+      63F5842B17DFC052B117DD82DCEE6DFD1864E57F336A5307A95E3F4975A8E88C
+      82A4C13827349226E310499A8E35E1D9BEF4DCCE35517DDE0A182676DDA01884
+      5F0000000049454E44AE426082}
+    Shadow = True
+    DisabledColor = clWhite
+    TabOrder = 3
+    TabStop = False
+    ShowFocus = False
+    HorizontalSpacing = 0
+    VerticalSpacing = 0
+    Version = '2.2.2.0'
+    OnClick = KeyBoardButtonClick
+    TMSStyle = 8
+  end
+end
