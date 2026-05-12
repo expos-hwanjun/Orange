@@ -1,0 +1,1566 @@
+object WorkMan_F: TWorkMan_F
+  Left = 402
+  Top = 286
+  Hint = 'Logo'
+  BorderStyle = bsNone
+  Caption = 'WorkMan_F'
+  ClientHeight = 552
+  ClientWidth = 734
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  Scaled = False
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 120
+    Top = 4
+    Width = 124
+    Height = 42
+    Caption = #51649#50896#51221#48372
+    Font.Charset = HANGEUL_CHARSET
+    Font.Color = clWhite
+    Font.Height = -31
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+  end
+  object MessageLabel: TLabel
+    Left = 73
+    Top = 511
+    Width = 625
+    Height = 28
+    AutoSize = False
+    Font.Charset = HANGEUL_CHARSET
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+  end
+  object Image3: TImage
+    Left = 22
+    Top = 509
+    Width = 37
+    Height = 32
+    Picture.Data = {
+      0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000032
+      0000003208060000001E3F88B10000000467414D410000B18F0BFC6105000004
+      2D494441546843ED9AEB8B56451CC7B75CAFAB794342A1C4CCBB68A018484620
+      F407A46865E62B4113B150CC1B45BE132942B1572146C41A49A914E22D8A4A12
+      C2BCE52D2F287841C537997921A7CFD7F39D7D7CDAE7D975F7B9CD8BFDC007F6
+      FC66CECCCFDD3373E6CC58D741071D548710C2D33813D7E2377808CFE075AB9F
+      0FE2D7A83A33F029DF5E5B48E4595C8D47B1187FD9621CC60F70A89BAD1E743A
+      0577E0BF18D16F7B1DCEC289D8CFD59B50CC656FE07AD45F2DA2B6BEC3C9AE5E
+      39E864A83B8B9CC5E538C455DA0CF73E832BF01C46B663BBDB2C0A8D3E866FE3
+      DF284EA2C6C3E3AE52326A0B5FC353286EE24217970E8DF5C4AFD432FC83FA0B
+      D4BBB8ECD076675C89B7516CC60617B70F1AD033FDAB5A03FDA6C6BAA8E2D0D7
+      38FC531DC33EECE3A2B6C18DBDF0805A811FB0B78BAA067DF6C11F9500FC863D
+      5DF468704327D4AC2476617717551DFAEE817B95087C8B9D5CD43A545EF5E0B6
+      6C7A7CC2E19A410EBDF1881282650EB70C15C7E35DD44B6C98C335875C46A066
+      CD3BD8FA58A5D21E146F39940CE4B4284B2DEC74A830547829AB17FEC08A4DB1
+      ED859C34351F5782F0A2C3CDA1500B3A31CBA1E420B737B314C3970EE54381A6
+      3A8D8DABD8C5E1E420B7AEA8D5B4C64AF38988A096D562A343C9428E9BB254C3
+      74877210FC382B0BAF3A942CE4F87A966AF8C8A11C04E34B679443C9428E63B2
+      54C36E877210D48A56243B3E22E4D82D4B359C702807C12B78CB97C943AE5A89
+      5FF6650E05F1B62F9347B9E2255FE620A897A0E8E150B290638B8F561CEC231C
+      4A16726C71B0AFC9CAC26C8792851CB5C1210A4EBFAF6465E1538792851C3FCB
+      520DD31CCA41B001F5C17F03BB3A9C1CE4A6F1A1258A067B2F87F3A1E00B1429
+      2F1AE764298646879A43E104BC8F7A39A6BA8C3F81E205870B4385AD59BDB0C8
+      A16420A777B2D4C20E878A4325EDFC69ACDCC2910ED71C7219E59C3436C638DC
+      32545C80429BD37D1DAE19E4A06FA5F8C25EEA70EB50595BA4718AD39E56CDDE
+      F6F4ADD95439886DD8B66D5A6EE882F16DAF9DBEFE2EAA1AF4A9BFC44F4A00F6
+      63FBB64EB9B13B6A534C68CB74A28B2A0E7D3D87A7D531FC8CA5ED74D280A6BC
+      0D6A0DF44DFFAE8B2A02EDEB49780FE326B6DE6DA56D623F0C8D69CB5F5C75A8
+      ACD06E3DCE461DD1096D10CE7371F9A0511DF288FD0E9505DAD3F19DB6682FA8
+      71D00B596790835DA5BCD0705C717EE2501EC475EAA4E3B4B938099FC4BC351B
+      D7035CA6BD293DAE714A153A7AD349D5F3AE5E19E8201EB9BDECD003B8D62311
+      77600AA14F52BD608BF13BBE8FE53F6AFB3F743210EFE1796CDAD6E7E7E1F83D
+      0A7DF3EB386E297E8EBFE031D427F435D4B3AFF3962DA86F9F6938C84D55073A
+      8CBFF1F9BED623F2216AB74F683F3699E54C414870342A613D1E8B518BCAF80F
+      108D58F8BB2015485027577A1915424762535D356D4854E711FA62BC88FA1F0A
+      5AEB2CC1E477233BA82D7575FF01B264F9F053E860DD0000000049454E44AE42
+      6082}
+    Stretch = True
+  end
+  object CloseButton: TcxButton
+    AlignWithMargins = True
+    Left = 669
+    Top = 3
+    Width = 59
+    Height = 48
+    Cursor = crHandPoint
+    Cancel = True
+    Colors.Default = clWhite
+    Colors.DefaultText = clWhite
+    Colors.Normal = clWhite
+    Colors.NormalText = clWhite
+    Colors.Disabled = clWhite
+    Colors.DisabledText = clWhite
+    LookAndFeel.Kind = lfOffice11
+    LookAndFeel.NativeStyle = True
+    OptionsImage.Glyph.Data = {
+      76140000424D7614000000000000360000002800000024000000240000000100
+      2000000000004014000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000090909095252
+      5252A7A7A7A7EAEAEAEAE5E5E5E5888888880606060600000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000909
+      090952525252A7A7A7A7F3F3F3F3FFFFFFFFE9E9E9E99E9E9E9EA6A6A6A6FFFF
+      FFFF878787870000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000909090952525252A7A7A7A7F3F3F3F3FFFFFFFFE9E9E9E9979797974242
+      4242030303030000000000000000A7A7A7A7E5E5E5E500000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000040404048A8A8A8AF3F3F3F3FFFFFFFFE9E9E9E99797
+      9797424242420303030300000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000000000008B8B8B8BFFFF
+      FFFFA6A6A6A64242424203030303000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF88888888888888888888
+      8888888888888888888879797979404040400000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000EBEBEBEBABABABAB0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFA9A9A9A90505050500000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000FFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      000000000000000000000E0E0E0E72727272FEFEFEFE7E7E7E7E000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      0000AFAFAFAFE5E5E5E500000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000FFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      00000000000000000000000000000000000081818181FEFEFEFE000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      000080808080FFFFFFFF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000FFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      00000000000000000000000000000000000080808080FFFFFFFF000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      000080808080FFFFFFFF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000FFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      00000000000000000000000000000000000080808080FFFFFFFF000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      000080808080FFFFFFFF000000000000000000000000000000001C1C1C1C5B5B
+      5B5B010101010000000000000000000000000000000000000000FFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      00000000000000000000000000000000000080808080FFFFFFFF000000000000
+      000000000000000000005C5C5C5CFFFFFFFF9090909001010101000000000000
+      00000000000000000000FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      00007C7C7C7CFCFCFCFC00000000000000000000000000000000000000008F8F
+      8F8FFFFFFFFF9090909001010101000000000000000000000000FFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      0000000000000000000000000000000000001C1C1C1C55555555000000000000
+      0000000000000000000000000000000000008F8F8F8FFFFFFFFF909090900101
+      01010000000000000000FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000087878787FFFFFFFF8F8F8F8F0101010100000000FFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000087878787FFFF
+      FFFF8F8F8F8F01010101FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF000000000000000000000000000000001C1C1C1C828282828888
+      8888888888888888888888888888888888888888888888888888888888888888
+      8888888888888888888888888888EAEAEAEAFFFFFFFF8D8D8D8DFFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      00000000000056565656FCFCFCFCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFE0E0E0E0FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000026262626E5E5E5E5E8E8E8E82A2A2A2AFFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000026262626E5E5E5E5E8E8
+      E8E82A2A2A2A00000000FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000027272727E5E5E5E5E8E8E8E82A2A2A2A0000000000000000FFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      00000000000000000000000000000000000059595959D1D1D1D1000000000000
+      000000000000000000000000000029292929E7E7E7E7E6E6E6E6282828280000
+      00000000000000000000FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      000080808080FFFFFFFF0000000000000000000000000000000023232323E7E7
+      E7E7E6E6E6E62828282800000000000000000000000000000000FFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      00000000000000000000000000000000000080808080FFFFFFFF000000000000
+      0000000000000000000056565656DADADADA2828282800000000000000000000
+      00000000000000000000FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      000080808080FFFFFFFF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000FFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000080808080FFFFFFFF00000000000000000000
+      00000000000000000000000000000000000080808080FFFFFFFF000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000008080
+      8080FFFFFFFF0000000000000000000000000000000000000000000000000000
+      000080808080FFFFFFFF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000FFFFFFFF8080
+      8080000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000A2A2A2A2EAEAEAEA00000000000000000000
+      00000000000000000000000000000000000080808080FFFFFFFF000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000FFFFFFFF808080800000000000000000000000000000
+      0000000000000000000000000000000000000303030342424242A5A5A5A5FFFF
+      FFFF8B8B8B8B0000000000000000000000000000000000000000000000000000
+      000080808080FFFFFFFF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000FFFFFFFF8080
+      8080000000000000000000000000000000000000000003030303424242429797
+      9797E9E9E9E9FFFFFFFFF3F3F3F38A8A8A8A0404040400000000000000000000
+      0000000000000000000000000000000000008E8E8E8EF8F8F8F8000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000E5E5E5E5A3A3A3A30000000000000000030303034242
+      424297979797E9E9E9E9FFFFFFFFF3F3F3F3A7A7A7A752525252090909090000
+      0000000000000000000000000000000000000000000000000000000000001010
+      1010E0E0E0E0C0C0C0C000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000088888888FDFD
+      FDFDA3A3A3A39C9C9C9CE9E9E9E9FFFFFFFFFFFFFFFFFFFFFFFFDADADADA9191
+      9191888888888888888888888888888888888888888888888888888888888888
+      8888888888888888888891919191E0E0E0E0F9F9F9F931313131000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000606060689898989E6E6E6E6FFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8F8F8F8C2C2
+      C2C2313131310000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000}
+    SpeedButtonOptions.CanBeFocused = False
+    SpeedButtonOptions.Flat = True
+    SpeedButtonOptions.Transparent = True
+    TabOrder = 0
+    TabStop = False
+    Font.Charset = HANGEUL_CHARSET
+    Font.Color = clWhite
+    Font.Height = -23
+    Font.Name = #47569#51008' '#44256#46357
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = CloseButtonClick
+  end
+  object User0Button: TAdvSmoothToggleButton
+    Left = 19
+    Top = 80
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Caption = #52488#44592#49324#50857#51088
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 1
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User2Button: TAdvSmoothToggleButton
+    Left = 299
+    Top = 80
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 2
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User3Button: TAdvSmoothToggleButton
+    Left = 439
+    Top = 80
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 3
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User4Button: TAdvSmoothToggleButton
+    Left = 579
+    Top = 80
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 4
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User5Button: TAdvSmoothToggleButton
+    Left = 19
+    Top = 160
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 5
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User6Button: TAdvSmoothToggleButton
+    Left = 159
+    Top = 160
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 6
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User7Button: TAdvSmoothToggleButton
+    Left = 299
+    Top = 160
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 7
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User8Button: TAdvSmoothToggleButton
+    Left = 439
+    Top = 160
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 8
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User9Button: TAdvSmoothToggleButton
+    Left = 579
+    Top = 160
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 9
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User10Button: TAdvSmoothToggleButton
+    Left = 19
+    Top = 240
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 10
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User11Button: TAdvSmoothToggleButton
+    Left = 159
+    Top = 240
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 11
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User12Button: TAdvSmoothToggleButton
+    Left = 299
+    Top = 240
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 12
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User13Button: TAdvSmoothToggleButton
+    Left = 439
+    Top = 240
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 13
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User14Button: TAdvSmoothToggleButton
+    Left = 579
+    Top = 240
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 14
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User15Button: TAdvSmoothToggleButton
+    Left = 19
+    Top = 320
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 15
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User16Button: TAdvSmoothToggleButton
+    Left = 159
+    Top = 320
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 16
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User17Button: TAdvSmoothToggleButton
+    Left = 299
+    Top = 320
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 17
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User18Button: TAdvSmoothToggleButton
+    Left = 439
+    Top = 320
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 18
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User19Button: TAdvSmoothToggleButton
+    Left = 579
+    Top = 320
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 19
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User20Button: TAdvSmoothToggleButton
+    Left = 19
+    Top = 400
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 20
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User21Button: TAdvSmoothToggleButton
+    Left = 159
+    Top = 400
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 21
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User22Button: TAdvSmoothToggleButton
+    Left = 299
+    Top = 400
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 22
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User23Button: TAdvSmoothToggleButton
+    Left = 439
+    Top = 400
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 23
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object User1Button: TAdvSmoothToggleButton
+    Left = 159
+    Top = 80
+    Width = 134
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 8404992
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Version = '1.5.1.1'
+    Status.Caption = #52636#44540
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ShowFocus = False
+    ParentFont = False
+    TabOrder = 24
+    OnClick = User1ButtonClick
+    TMSStyle = 0
+  end
+  object PrevButton: TAdvSmoothToggleButton
+    Left = 579
+    Top = 400
+    Width = 66
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 5263440
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.ShiftDown = -1
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Caption = #9664
+    Version = '1.5.1.1'
+    Status.Caption = '0'
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ParentFont = False
+    TabOrder = 25
+    OnClick = PrevButtonClick
+    TMSStyle = 0
+  end
+  object NextButton: TAdvSmoothToggleButton
+    Left = 647
+    Top = 400
+    Width = 66
+    Height = 74
+    Hint = 'N'
+    RepeatInterval = 0
+    FontColorDisabled = clWhite
+    Color = 7945472
+    ColorDisabled = 5263440
+    ColorDown = 8404992
+    BorderColor = clWhite
+    BorderInnerColor = 6160384
+    BevelWidth = 0
+    BevelColorDisabled = 8404992
+    DropDownArrowColor = clWhite
+    AutoToggle = False
+    Appearance.GlowPercentage = 20
+    Appearance.PictureAlignment = taCenter
+    Appearance.Font.Charset = DEFAULT_CHARSET
+    Appearance.Font.Color = clWhite
+    Appearance.Font.Height = -20
+    Appearance.Font.Name = #47569#51008' '#44256#46357
+    Appearance.Font.Style = []
+    Appearance.ShiftDown = -1
+    Appearance.FocusColor = clWhite
+    Appearance.ImageIndex = 0
+    Appearance.Rounding = 5
+    Caption = #9654
+    Version = '1.5.1.1'
+    Status.Caption = '0'
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 8
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    ParentFont = False
+    TabOrder = 26
+    OnClick = PrevButtonClick
+    TMSStyle = 0
+  end
+end
