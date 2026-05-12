@@ -1,0 +1,100 @@
+object CardSign_F: TCardSign_F
+  Left = 680
+  Top = 402
+  BorderStyle = bsNone
+  Caption = 'CardSign_F'
+  ClientHeight = 362
+  ClientWidth = 444
+  Color = clWhite
+  DefaultMonitor = dmMainForm
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ImgScreen: TImage
+    Left = 0
+    Top = 0
+    Width = 444
+    Height = 301
+    Stretch = True
+    OnMouseDown = ImgScreenMouseDown
+    OnMouseMove = ImgScreenMouseMove
+  end
+  object cxLabel1: TcxLabel
+    Left = 24
+    Top = 16
+    Caption = #49849#51064#44552#50529
+    ParentFont = False
+    Style.Font.Charset = DEFAULT_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -20
+    Style.Font.Name = #44404#47548#52404
+    Style.Font.Style = [fsBold]
+    Style.IsFontAssigned = True
+    Transparent = True
+    Visible = False
+  end
+  object lblAmount: TcxLabel
+    Left = 144
+    Top = 16
+    Caption = '10,000'#50896
+    ParentFont = False
+    Style.Font.Charset = DEFAULT_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -20
+    Style.Font.Name = #44404#47548#52404
+    Style.Font.Style = [fsBold]
+    Style.IsFontAssigned = True
+    Transparent = True
+    Visible = False
+  end
+  object lblCharge: TcxLabel
+    Left = 24
+    Top = 48
+    Caption = #52649#51204#44148#49688
+    ParentFont = False
+    Style.Font.Charset = DEFAULT_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -20
+    Style.Font.Name = #44404#47548#52404
+    Style.Font.Style = [fsBold]
+    Style.IsFontAssigned = True
+    Transparent = True
+    Visible = False
+  end
+  object lblCount: TcxLabel
+    Left = 144
+    Top = 48
+    Caption = '400'#44148
+    ParentFont = False
+    Style.Font.Charset = DEFAULT_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -20
+    Style.Font.Name = #44404#47548#52404
+    Style.Font.Style = [fsBold]
+    Style.IsFontAssigned = True
+    Transparent = True
+    Visible = False
+  end
+  object cxLabel3: TcxLabel
+    Left = 48
+    Top = 147
+    Caption = #54252#49828#54868#47732#50640' '#49436#47749#54644#51452#49464#50836' ....'
+    ParentFont = False
+    Style.Font.Charset = DEFAULT_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -23
+    Style.Font.Name = #44404#47548#52404
+    Style.Font.Style = [fsBold]
+    Style.IsFontAssigned = True
+    Transparent = True
+    Visible = False
+  end
+end
